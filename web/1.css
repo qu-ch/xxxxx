@@ -1,0 +1,83 @@
+*{
+    padding:0;
+    margin:0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.ding{
+    background-color: black;
+    height:10px;
+}
+.logo{
+    height:50px;
+    margin-left:60px ;
+}
+.logo>img{
+    height:50px;
+    width:auto;
+    float: left;
+}
+.logo div{
+    font-size: 35px;
+    font-family: 楷体;
+    float:left;
+}
+nav{
+    background-color: orange;
+    padding-left:40px;
+    padding-top:12px;
+    height:38px;
+    position: relative;
+}
+nav>ul>li{
+    float: left;
+    margin-left:40px;
+    font-size: 20px;
+}
+nav>ul>li:hover{
+    background-color: rgb(148, 99, 7); ;
+}
+.t2{
+    display:none;
+    background-color: orange;
+    position: absolute;
+    top:50px;
+    z-index:2;
+}
+nav>ul>li:hover .t2{
+    display: block;
+}
+.t2>li:hover{
+    background-color: rgb(148, 99, 7);
+}
+.sign{
+    font-size:40px;
+    font-family: 楷体;
+    margin-top: 90px;
+    width:850px;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+.sign>img{
+    float:left;
+}
+.new{
+    font-size:20px;
+    width:850px;
+    height:auto;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.new img{
+    height:400px;
+    width:auto;
+    float:right;
+  
+}

@@ -1,0 +1,164 @@
+*{
+    padding:0;
+    margin:0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.ding{
+    background-color: black;
+    height:10px;
+}
+.logo{
+    height:50px;
+    margin-left:60px ;
+}
+.logo>img{
+    height:50px;
+    width:auto;
+    float: left;
+}
+.logo div{
+    font-size: 35px;
+    font-family: 楷体;
+    float:left;
+}
+nav{
+    background-color: orange;
+    padding-left:40px;
+    padding-top:12px;
+    height:38px;
+    position: relative;
+}
+nav>ul>li{
+    float: left;
+    margin-left:40px;
+    font-size: 20px;
+}
+nav>ul>li:hover{
+    background-color: rgb(148, 99, 7); ;
+}
+.t2{
+    display:none;
+    background-color: orange;
+    position: absolute;
+    top:50px;
+    z-index:2;
+}
+nav>ul>li:hover .t2{
+    display: block;
+}
+.t2>li:hover{
+    background-color: rgb(148, 99, 7);
+}
+.sign{
+    font-size:40px;
+    font-family: 楷体;
+    margin-top: 90px;
+    width:850px;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+.sign>img{
+    float:left;
+}
+
+.ce{
+    position: fixed;
+    top:200px;
+    margin-left:20px;
+}
+.ce button{
+    width:120px;
+    height:50px;
+    background-color: rgb(198, 192, 192);
+    border:none;
+}
+.ce button:hover{
+    background-color: rgb(109, 115, 121);
+}
+/**/
+.it1{
+    margin-top: 70px;
+    display: flex;
+    height:250px;
+    width:850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.i2 {
+    height:250px;
+    width:50%;
+}
+.it1 img{
+    width:auto;
+    height:250px;
+}
+.i2 button{
+    width:50%;
+    float:left;
+    background-color: black;
+    color:aliceblue;
+}
+.bu:hover{
+    background-color:rgb(71, 72, 72)
+}
+/**/
+#ph{
+    position: relative;
+    width:850px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ph>img{
+    width:450px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    position: relative;
+    left:200px;
+}
+#te{
+    font-family: 楷体;
+    font-size: 20px;
+    position: absolute;
+    color:rgb(209, 131, 41);
+    bottom:270px;
+    left:200px;
+}
+table{
+    width:80%;
+    height:500px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:70px;
+}
+tr>td{
+    background-size: cover;
+    
+}
+td>span{
+    display: none;
+    font-family: 楷体;
+    font-size: 20px;
+    color: rgb(247, 7, 7);
+}
+td:hover span{
+    display: block;
+    
+}
+
+footer{
+    height:20px;
+    background-color: rgb(241, 217, 183);
+    margin-top: 40px;
+    text-align: center;
+    font-family: 楷体;
+}

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>菜</title>
+    <link type="text/css" rel="stylesheet" href="2.css">
+</head>
+
+<body>
+    <div class="ding"></div>
+    <div class="logo">
+        <img src="图标.jpg">
+        <div>中餐味道</div>
+    </div>
+    <div class="clear"></div>
+    <nav>
+        <ul>
+            <li>
+                <a href="one.html">首页</a>
+            </li>
+            <li>
+                <a href="two.html">菜系</a>
+                <ul class="t2">
+                    <li>川菜</li>
+                    <li>赣菜</li>
+                    <li>湘菜</li>
+                    <li>闽菜</li>
+                </ul>
+            </li>
+            <li>
+                <a href="three.html">介绍</a>
+            </li>
+            <li>联系我们</li>
+
+        </ul>
+    </nav>
+    <div class="clear"></div>
+    <div class="ce">
+        <ul>
+            <li><button class="to">川菜</button></li>
+            <li><button class="to">赣菜</button></li>
+            <li><button class="to">湘菜</button></li>
+            <li><button class="to">闽菜</button></li>
+        </ul>
+    </div>
+    <div class="cai">
+        <div class="sign">
+            <img src="方块.png">
+            川菜
+        </div>
+        <div class="it1">
+            <div>
+                <img src="宫保鸡丁.jpg">
+            </div>
+            <div class="i2">
+                <div>
+                    <button class="bu">介绍</button>
+                    <button class="bu">做法</button>
+                </div>
+                <div class="itr">宫保鸡丁（Kung Pao Chicken） [1] ，是一道闻名中外的特色传统名菜，在鲁菜、川菜、贵州菜中都有收录，其原料、做法有差别。 [2]
+                    该菜式的起源与鲁菜中的酱爆鸡丁、贵州菜中的胡辣子鸡丁有关，后被清朝山东巡抚、四川总督丁宝桢改良发扬，形成了一道新菜式——宫保鸡丁，并流传，此道菜也被归纳为北京宫廷菜 [3] 。</div>
+                <div class="itr">
+                    川菜版的宫保鸡丁用的是鸡脯肉，由于鸡脯肉不容易入味，炒出来鸡肉容易嫩滑不足，需要在码味上浆之前，用刀背将鸡肉拍打几下，或者放入一只蛋白，这样的鸡肉会更加嫩滑。川菜版宫保鸡丁原料中必须使用油酥花生米和干辣椒节，味必须是辣型荔枝味。辣椒节炸香，突出糊辣味。
+                </div>
+                <script>
+                    let divt = document.getElementsByClassName('itr');
+                    function change(n) {
+                        for (let i = 0; i < divt.length; i++) {
+                            divt[i].style.display = 'none';
+                        }
+                        divt[n].style.display = 'block';
+                    }
+                    let divu = document.getElementsByClassName('bu');
+                    for (let i = 0; i < divu.length; i++) {
+                        divu[i].onclick = function () { change(i); };
+                    }
+                </script>
+            </div>
+        </div>
+        <div class="it2">
+            <div id="ph">
+                <img src="辣子鸡.jpg">
+
+                <p id="te">四川名菜：辣子鸡</p>
+            </div>
+        </div>
+        <div class="it3">
+            <table>
+                <tr>
+                    <td background="回锅肉.jpg">
+                        <span>
+                            回锅肉，是四川传统菜式中家常菜肴的代表菜之一，属于川菜。
+                            其制作原料主要有猪后臀肉（二刀肉）、青椒、蒜苗等，口味独特，色泽红亮，肥而不腻。
+                        </span>
+                    </td>
+                    <td background="鱼香肉丝.jpg">
+                        <span>
+                            鱼香肉丝，是四川的一道特色名菜，该菜品以泡辣椒、子姜、大蒜、糖和醋炒制猪里脊肉丝而成，由民国时期的一位川菜大厨所创制，相传灵感来自泡椒肉丝。
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td background="板栗烧鸡.jpg">
+                        <span>
+                            板栗烧鸡，是一道中国传统名菜，属东北菜、川菜、湘菜、赣菜等。菜品具有鸡肉鲜滑、板栗香甜、汁浓醇厚、色泽红亮、美观大方的特点。
+                        </span>
+                    </td>
+                    <td background="麻婆豆腐.jpg">
+                        <span>
+                            麻婆豆腐，是四川地区传统名菜之一，属于川菜，主料为：豆腐，辅料为：蒜苗、牛肉沫(其他肉也可以)，调料为：豆瓣、辣椒面和花椒面、酱油、生抽、老抽、糖、淀粉等，麻来自花椒，辣来自辣椒面，此菜成菜麻、辣、鲜、香、烫、脆、嫩、酥，将川菜麻辣味型的特点展现的淋漓尽致，
+                        </span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="cai">
+        <div class="sign">
+            <img src="方块.png">
+            赣菜
+        </div>
+        <div class="it1">
+            <div>
+                <img src="粉蒸肉.jpg">
+            </div>
+            <div class="i2">
+                <div>
+                    <button class="ga1">介绍</button>
+                    <button class="ga1">做法</button>
+                </div>
+                <div class="ga2">粉蒸肉 [1] ，亦称米粉肉 [6] ，发源于江西。诗人袁枚在《随园食单》中首次记载为一道江西菜品 [2]
+                    ，流行于中国南方（四川、江西、湖南、安徽、湖北、浙江、福建、广东梅州等地 [6-7] ），属赣菜系，糯而清香，酥而爽口，有肥有瘦，红白相间，嫩而不糜，米粉油润，香味浓郁。</div>
+                <div class="ga2">先将五花肉切成件，大米加入少量花椒、八角炒香后碾成细粒粉末。把切好五花肉放入调料拌均，加入制好米粉和拌均匀。将拌好五花肉放入碗中砌放排好，放入蒸笼蒸熟即可。</div>
+                <script>
+                    let ga2s = document.getElementsByClassName('ga2');
+                    function change(n) {
+                        for (let i = 0; i < ga2s.length; i++) {
+                            ga2s[i].style.display = 'none';
+                        }
+                        ga2s[n].style.display = 'block';
+                    }
+                    let ga1s = document.getElementsByClassName('ga1');
+                    for (let i = 0; i < divu.length; i++) {
+                        ga1s[i].onclick = function () { change(i); };
+                    }
+                </script>
+            </div>
+        </div>
+        <div class="it2">
+            <div id="ph">
+                <img src="庐山石鸡.jpg">
+
+                <p id="te">江西名菜：庐山石鸡</p>
+            </div>
+        </div>
+        <div class="it3">
+            <table>
+                <tr>
+                    <td background="四星望月.jpg">
+                        <span>
+                            四星望月，是江西省赣州市兴国县的一道传统菜肴，菜名为毛泽东所起，属赣菜系赣南客家菜一支，为赣南客家菜“十大名菜”之一，俗称“兴国粉笼床”
+                        </span>
+                    </td>
+                    <td background="永和豆腐.jpg">
+                        <span>
+                            永和豆腐是江西省吉安县永和镇的一道传统特色名菜，属于赣菜系；因其具有“细腻、淳厚、爽滑、筋道”的优点，而被列入“十大赣菜”之一。 
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td background="老表土鸡汤.jpg">
+                        <span>
+                            老表土鸡汤，是江西省宜春市袁州区传统的特色名菜，属于赣菜系袁州菜一支。因其肉质鲜嫩，鲜香爽口兼具滋补养身的神奇功效而被列入“十大赣菜”之一。老表土鸡汤的主料土鸡为袁州当地特产袁州土鸡。相传此菜于朱元璋有关。
+                    </td>
+                    <td background="莲花血鸭.jpg">
+                        <span>
+                            莲花血鸭属赣菜系萍乡菜一支，是江西省萍乡市莲花县的一道特色名菜。莲花血鸭因具有“色美味香、鲜嫩可口”的特点而被列入“十大赣菜”之一。
+                        </span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="cai">
+        <div class="sign">
+            <img src="方块.png">
+            湘菜
+        </div>
+        <div class="it1">
+            <div>
+                <img src="剁椒鱼头.jpg">
+            </div>
+            <div class="i2">
+                <div>
+                    <button class="xi1">介绍</button>
+                    <button class="xi1">做法</button>
+                </div>
+                <div class="xi2">剁椒鱼头（英文名：Chop bell pepper fish head）是湖南省的传统名菜，属于湘菜系。据传，起源和清代文人黄宗宪有关。
+                    通常以鳙鱼鱼头、剁椒为主料，配以豉油、姜、葱、蒜等辅料蒸制而成。菜品色泽红亮、味浓、肉质细嫩。肥而不腻、口感软糯、鲜辣适口。
+                    2018年9月10日，“中国菜”正式发布，“剁椒鱼头“被评为“中国菜”湖南十大经典名菜。</div>
+                <div class="xi2">
+                    剁椒鱼头，以鱼头的“味鲜”和剁椒的“辣”为一体。火辣辣的红剁椒，覆盖着白嫩嫩的鱼头肉，冒着热腾腾清香四溢的香气。蒸制的方法，鱼头的鲜香被尽量保留在肉质之内，剁椒的味道又恰到好处地渗入到鱼肉当中，入口细嫩晶莹，带着一股温文尔雅的辣味
+                </div>
+                <script>
+                    let xi2s = document.getElementsByClassName('xi2');
+                    function change(n) {
+                        for (let i = 0; i < xi2s.length; i++) {
+                            xi2s[i].style.display = 'none';
+                        }
+                        xi2s[n].style.display = 'block';
+                    }
+                    let xi1s = document.getElementsByClassName('xi1');
+                    for (let i = 0; i < xi1s.length; i++) {
+                        xi1s[i].onclick = function () { change(i); };
+                    }
+                </script>
+            </div>
+        </div>
+        <div class="it2">
+            <div id="ph">
+                <img src="东安鸡.png">
+
+                <p id="te">湘味名菜：东安鸡</p>
+            </div>
+        </div>
+        <div class="it3">
+            <table>
+                <tr>
+                    <td background="鱼粉.png">
+                        <span>
+                            鱼粉是湖南省衡阳市特色美食之一，利用新鲜的鱼肉和米粉为主要原料制成。鱼粉也是衡阳人早餐所常吃的米粉的一种。通常来说，衡阳米粉按煮熟后所添加的原料可分为碎肉粉、三鲜粉、酸辣粉、筒子骨粉、牛肉粉、牛腩粉等。
+                        </span>
+                    </td>
+                    <td background="吉首酸肉.jpg">
+                        <span>
+                            吉首酸肉，是一道以肥猪肉制作而成的菜肴。湘菜的香辣可谓是无人不知，无人不晓。吉首酸肉就是这样一道香辣无比，美味无敌的菜肴。此菜色黄香辣，略有酸味，肥而不腻，别有风味。
+
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td background="外婆菜.jpg">
+                        <span>
+                            外婆菜又名万菜，是湖南湘西、广东五华 [4]  等地区的一道家常菜，原料选用梅干菜（雪里蕻）、萝卜干、干豇豆、包菜丝等，以湘西传统的民间制作方法晒干放入坛内腌制而成，
+                        </span>
+                    </td>
+                    <td background="麻婆豆腐.jpg">
+                        <span>
+                            麻婆豆腐，是四川地区传统名菜之一，属于川菜，主料为：豆腐，辅料为：蒜苗、牛肉沫(其他肉也可以)，调料为：豆瓣、辣椒面和花椒面、酱油、生抽、老抽、糖、淀粉等，麻来自花椒，辣来自辣椒面，此菜成菜麻、辣、鲜、香、烫、脆、嫩、酥，将川菜麻辣味型的特点展现的淋漓尽致，
+                        </span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="cai">
+        <div class="sign">
+            <img src="方块.png">
+            闽菜
+        </div>
+        <div class="it1">
+            <div>
+                <img src="宫保鸡丁.jpg">
+            </div>
+            <div class="i2">
+                <div>
+                    <button class="mi1">介绍</button>
+                    <button class="mi1">做法</button>
+                </div>
+                <div class="mi2">宫保鸡丁（Kung Pao Chicken） [1] ，是一道闻名中外的特色传统名菜，在鲁菜、川菜、贵州菜中都有收录，其原料、做法有差别。 [2]
+                    该菜式的起源与鲁菜中的酱爆鸡丁、贵州菜中的胡辣子鸡丁有关，后被清朝山东巡抚、四川总督丁宝桢改良发扬，形成了一道新菜式——宫保鸡丁，并流传，此道菜也被归纳为北京宫廷菜 [3] 。</div>
+                <div class="mi2">
+                    川菜版的宫保鸡丁用的是鸡脯肉，由于鸡脯肉不容易入味，炒出来鸡肉容易嫩滑不足，需要在码味上浆之前，用刀背将鸡肉拍打几下，或者放入一只蛋白，这样的鸡肉会更加嫩滑。川菜版宫保鸡丁原料中必须使用油酥花生米和干辣椒节，味必须是辣型荔枝味。辣椒节炸香，突出糊辣味。
+                </div>
+                <script>
+                    let mi2s = document.getElementsByClassName('mi2');
+                    function change(n) {
+                        for (let i = 0; i < mi2s.length; i++) {
+                            mi2s[i].style.display = 'none';
+                        }
+                        mi2s[n].style.display = 'block';
+                    }
+                    let mi1s = document.getElementsByClassName('mi1');
+                    for (let i = 0; i < mi1s.length; i++) {
+                        mi1s[i].onclick = function () { change(i); };
+                    }
+                </script>
+            </div>
+        </div>
+        <div class="it2">
+            <div id="ph">
+                <img src="辣子鸡.jpg">
+
+                <p id="te">四川名菜：辣子鸡</p>
+            </div>
+        </div>
+        <div class="it3">
+            <table>
+                <tr>
+                    <td background="回锅肉.jpg">
+                        <span>
+                            回锅肉，是四川传统菜式中家常菜肴的代表菜之一，属于川菜。
+                            其制作原料主要有猪后臀肉（二刀肉）、青椒、蒜苗等，口味独特，色泽红亮，肥而不腻。
+                        </span>
+                    </td>
+                    <td background="鱼香肉丝.jpg">
+                        <span>
+                            鱼香肉丝，是四川的一道特色名菜，该菜品以泡辣椒、子姜、大蒜、糖和醋炒制猪里脊肉丝而成，由民国时期的一位川菜大厨所创制，相传灵感来自泡椒肉丝。
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td background="板栗烧鸡.jpg">
+                        <span>
+                            板栗烧鸡，是一道中国传统名菜，属东北菜、川菜、湘菜、赣菜等。菜品具有鸡肉鲜滑、板栗香甜、汁浓醇厚、色泽红亮、美观大方的特点。
+                        </span>
+                    </td>
+                    <td background="麻婆豆腐.jpg">
+                        <span>
+                            麻婆豆腐，是四川地区传统名菜之一，属于川菜，主料为：豆腐，辅料为：蒜苗、牛肉沫(其他肉也可以)，调料为：豆瓣、辣椒面和花椒面、酱油、生抽、老抽、糖、淀粉等，麻来自花椒，辣来自辣椒面，此菜成菜麻、辣、鲜、香、烫、脆、嫩、酥，将川菜麻辣味型的特点展现的淋漓尽致，
+                        </span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        let cais = document.getElementsByClassName('cai');
+        function changes(n) {
+            for (let i = 0; i < cais.length; i++) {
+                cais[i].style.display = 'none';
+            }
+            cais[n].style.display = 'block';
+        }
+        let tos = document.getElementsByClassName('to');
+        for (let i = 0; i < tos.length; i++) {
+            tos[i].onclick = function () { changes(i); };
+        }
+        changes(0);
+    </script>
+    <footer>
+        到底了
+    </footer>
+</body>
+
+</html>
